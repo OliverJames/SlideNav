@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document by Oliver Mahoney*/
 
+/****************************/
+/*presets*/
+/****************************/
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -10,7 +14,11 @@ body {
 	background-color: rgba(251,159,27,0.78);	
 }
 
-#display {
+/****************************/
+/*Button and Menu Styles*/
+/****************************/
+
+#displayButton {
 	margin-left: 45px;
 	margin-top: -10px;
 	box-shadow: inset 0px 0px 12px #000000;
@@ -35,6 +43,7 @@ body {
 	width: 100%px;
 	padding: 30px;
 	box-shadow: inset 0px 0px 12px #211B1B;
+	text-align: center;
 }
 
 .mainMenu nav a {
@@ -53,6 +62,10 @@ body {
 	margin: 20px;
 }
 
+/****************************/
+/*Content and Text Styles*/
+/****************************/
+
 .mainContent {
 	margin: auto;
 	width: 700px;
@@ -60,22 +73,12 @@ body {
 	color: #FFF;	
 	text-align: center;
 }
-/*Header Shadows*/
 
 .main {
 	cursor: pointer;
 	font-size: 45px;
 	text-transform: uppercase;
 	text-shadow: 0px 0px 0px #000;
-	margin-bottom: 12px;
-	color: #FFF;
-}
-
-.mainShadow {
-	cursor: Pointer;
-	font-size: 45px;
-	text-transform: uppercase;
-	text-shadow: 0px 0px 4px #000;
 	margin-bottom: 12px;
 	color: #FFF;
 }
